@@ -32,6 +32,7 @@ This boilerplate includes some plus main dependencies:
 ## 📁 Folders Structure
 
 <div>
+  
     src
     ├── assets
       ├── fonts
