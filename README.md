@@ -50,3 +50,7 @@ This boilerplate includes some plus main dependencies:
     ├── services
     App.js
 </div>
+
+## :memo: License
+
+Copyright © 2020, [Davi Guimarães](https://github.com/davigl).
