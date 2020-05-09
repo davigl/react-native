@@ -1,4 +1,8 @@
+import * as Animatable from 'react-native-animatable';
+
 import styled from 'styled-components/native';
+
+import { fadeIn } from '~/assets/styles/animations';
 
 export const Wrapper = styled.View`
   flex: 1;
@@ -9,7 +13,11 @@ export const Wrapper = styled.View`
   background-color: #09091E;
 `;
 
-export const Text = styled.Text`
+export const Text = styled(Animatable.Text).attrs(() => ({
+  animation: fadeIn,
+  duration: 2000,
+  easing: 'ease-in'
+}))`
   font-family: Poppins;
   font-size: 13px;
   color: #fff;

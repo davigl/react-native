@@ -10,6 +10,7 @@ This boilerplate includes some plus main dependencies:
 * axios
 * redux
 * styled-components
+* react-animatable
 * eslint
 * eslint-plugin-import-helpers
 * babel-plugin-root-import
